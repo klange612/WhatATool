@@ -18,6 +18,7 @@
 		53F59DA91713A345006089F9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F59DA81713A345006089F9 /* Default-568h@2x.png */; };
 		53F59DAC1713A345006089F9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F59DAA1713A345006089F9 /* MainStoryboard.storyboard */; };
 		53F59DAF1713A345006089F9 /* WhatAToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F59DAE1713A345006089F9 /* WhatAToolViewController.m */; };
+		53F59DB71713A3B8006089F9 /* PolygonShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F59DB61713A3B8006089F9 /* PolygonShape.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		53F59DAB1713A345006089F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		53F59DAD1713A345006089F9 /* WhatAToolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatAToolViewController.h; sourceTree = "<group>"; };
 		53F59DAE1713A345006089F9 /* WhatAToolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatAToolViewController.m; sourceTree = "<group>"; };
+		53F59DB51713A3B8006089F9 /* PolygonShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonShape.h; sourceTree = "<group>"; };
+		53F59DB61713A3B8006089F9 /* PolygonShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonShape.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				53F59DAD1713A345006089F9 /* WhatAToolViewController.h */,
 				53F59DAE1713A345006089F9 /* WhatAToolViewController.m */,
 				53F59D991713A345006089F9 /* Supporting Files */,
+				53F59DB51713A3B8006089F9 /* PolygonShape.h */,
+				53F59DB61713A3B8006089F9 /* PolygonShape.m */,
 			);
 			path = WhatATool;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				53F59D9F1713A345006089F9 /* main.m in Sources */,
 				53F59DA31713A345006089F9 /* WhatAToolAppDelegate.m in Sources */,
 				53F59DAF1713A345006089F9 /* WhatAToolViewController.m in Sources */,
+				53F59DB71713A3B8006089F9 /* PolygonShape.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
